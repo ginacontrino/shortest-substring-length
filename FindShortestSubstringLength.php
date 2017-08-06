@@ -26,7 +26,7 @@ class FindShortestSubstringLength
         for ($i = 0; $i < strlen($inputPartial); $i++) {
             $character = $inputPartial[$i];
 
-            // if the character us not in the hash, we don't need to keep going
+            // if the character is not in the hash, we don't need to keep going
             if ( ! array_key_exists($character, $this->searchCharacterHash)) continue;
 
             // otherwise:
